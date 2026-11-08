@@ -1,15 +1,7 @@
-# Server
-server/node_modules
-server/.env
-server/uploads/
-
-# Frontend
-my-app/node_modules
-my-app/dist
-
-# Misc
-node_modules
-*.log
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+build/
 .DS_Store
-build_error.log
-build_log.txt
